@@ -9,6 +9,11 @@ $content-padding-bottom     = 80px;
 $posts-first-padding        = 80px;
 $posts-first-padding-mobile = 60px;
 
+$content-wrap                 = 'calc(100% - %s)' % unit($sidebar-width + $sidebar-offset, 'px');
+$content-desktop              = 'calc(100% - %s)' % unit($content-desktop-padding / 2, 'px');
+$content-desktop-large        = 1000px;
+$content-desktop-largest      = 65%;
+
 $link-decoration-color   = $grey-light;
 $content-bg-color        = $whitesmoke;
 $menu-item-bg-color      = $grey-lighter;
